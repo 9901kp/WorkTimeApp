@@ -10,6 +10,8 @@
 		32EFD123750C15CBEB0D9AEE /* Pods_WorkTimeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4BD2013FE12929D4C24DCF /* Pods_WorkTimeApp.framework */; };
 		35EB66D69076CE4B3259A1C0 /* Pods_WorkTimeAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74581D701E1CAAE19172EEF6 /* Pods_WorkTimeAppTests.framework */; };
 		87B3B08AAE6A2CE2F278ED13 /* Pods_WorkTimeApp_WorkTimeAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5969C83CAEAD712E4AC7DF3E /* Pods_WorkTimeApp_WorkTimeAppUITests.framework */; };
+		BF5FE6D82DA16B4C0047635E /* AuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5FE6D72DA16B4C0047635E /* AuthSDK.framework */; };
+		BF5FE6ED2DA16DD70047635E /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5FE6EC2DA16DD70047635E /* UIComponents.framework */; };
 		BF9B00DD2D9DD02100A156F2 /* WorkTimeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B00DA2D9DD02100A156F2 /* WorkTimeAppUITests.swift */; };
 		BF9B00DE2D9DD02100A156F2 /* WorkTimeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B00DB2D9DD02100A156F2 /* WorkTimeAppUITestsLaunchTests.swift */; };
 		BF9B00E12D9DD02100A156F2 /* WorkTimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9B00DF2D9DD02100A156F2 /* WorkTimeAppTests.swift */; };
@@ -22,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BF5FE6D22DA16B270047635E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9B009C2D9DCF5C00A156F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9B00A32D9DCF5C00A156F2;
+			remoteInfo = WorkTimeApp;
+		};
+		BF5FE6E72DA16DC60047635E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9B009C2D9DCF5C00A156F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9B00A32D9DCF5C00A156F2;
+			remoteInfo = WorkTimeApp;
+		};
 		BF9B00BB2D9DCF5F00A156F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BF9B009C2D9DCF5C00A156F2 /* Project object */;
@@ -45,6 +61,10 @@
 		74581D701E1CAAE19172EEF6 /* Pods_WorkTimeAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkTimeAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		879E4511A1B21E10C76C1E24 /* Pods-WorkTimeApp-WorkTimeAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkTimeApp-WorkTimeAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WorkTimeApp-WorkTimeAppUITests/Pods-WorkTimeApp-WorkTimeAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9E2ADA65EB1B1EDE46229CF9 /* Pods-WorkTimeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkTimeApp.debug.xcconfig"; path = "Target Support Files/Pods-WorkTimeApp/Pods-WorkTimeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5FE6CE2DA16B270047635E /* AuthSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FE6D72DA16B4C0047635E /* AuthSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AuthSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FE6E32DA16DC50047635E /* UIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FE6EC2DA16DD70047635E /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9B00A42D9DCF5C00A156F2 /* WorkTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9B00BA2D9DCF5F00A156F2 /* WorkTimeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkTimeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9B00C42D9DCF5F00A156F2 /* WorkTimeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkTimeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +83,40 @@
 		F8E3241CE004275A309FD407 /* Pods-WorkTimeApp-WorkTimeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkTimeApp-WorkTimeAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WorkTimeApp-WorkTimeAppUITests/Pods-WorkTimeApp-WorkTimeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF5FE6CF2DA16B270047635E /* AuthSDKTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = AuthSDKTests;
+			sourceTree = "<group>";
+		};
+		BF5FE6E42DA16DC60047635E /* UIComponentsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = UIComponentsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		BF5FE6CB2DA16B270047635E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FE6D82DA16B4C0047635E /* AuthSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FE6E02DA16DC50047635E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FE6ED2DA16DD70047635E /* UIComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF9B00A12D9DCF5C00A156F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +147,8 @@
 		76E85560ABDDF9231649F576 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF5FE6EC2DA16DD70047635E /* UIComponents.framework */,
+				BF5FE6D72DA16B4C0047635E /* AuthSDK.framework */,
 				EC4BD2013FE12929D4C24DCF /* Pods_WorkTimeApp.framework */,
 				5969C83CAEAD712E4AC7DF3E /* Pods_WorkTimeApp_WorkTimeAppUITests.framework */,
 				74581D701E1CAAE19172EEF6 /* Pods_WorkTimeAppTests.framework */,
@@ -107,6 +162,8 @@
 				BF9B00EB2D9DD02100A156F2 /* WorkTimeApp */,
 				BF9B00E02D9DD02100A156F2 /* WorkTimeAppTests */,
 				BF9B00DC2D9DD02100A156F2 /* WorkTimeAppUITests */,
+				BF5FE6CF2DA16B270047635E /* AuthSDKTests */,
+				BF5FE6E42DA16DC60047635E /* UIComponentsTests */,
 				BF9B00A52D9DCF5C00A156F2 /* Products */,
 				D99627D6C5B6A09A38915D6F /* Pods */,
 				76E85560ABDDF9231649F576 /* Frameworks */,
@@ -119,6 +176,8 @@
 				BF9B00A42D9DCF5C00A156F2 /* WorkTimeApp.app */,
 				BF9B00BA2D9DCF5F00A156F2 /* WorkTimeAppTests.xctest */,
 				BF9B00C42D9DCF5F00A156F2 /* WorkTimeAppUITests.xctest */,
+				BF5FE6CE2DA16B270047635E /* AuthSDKTests.xctest */,
+				BF5FE6E32DA16DC50047635E /* UIComponentsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +261,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BF5FE6CD2DA16B270047635E /* AuthSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5FE6D62DA16B270047635E /* Build configuration list for PBXNativeTarget "AuthSDKTests" */;
+			buildPhases = (
+				BF5FE6CA2DA16B270047635E /* Sources */,
+				BF5FE6CB2DA16B270047635E /* Frameworks */,
+				BF5FE6CC2DA16B270047635E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5FE6D32DA16B270047635E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF5FE6CF2DA16B270047635E /* AuthSDKTests */,
+			);
+			name = AuthSDKTests;
+			productName = AuthSDKTests;
+			productReference = BF5FE6CE2DA16B270047635E /* AuthSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF5FE6E22DA16DC50047635E /* UIComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5FE6E92DA16DC60047635E /* Build configuration list for PBXNativeTarget "UIComponentsTests" */;
+			buildPhases = (
+				BF5FE6DF2DA16DC50047635E /* Sources */,
+				BF5FE6E02DA16DC50047635E /* Frameworks */,
+				BF5FE6E12DA16DC50047635E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5FE6E82DA16DC60047635E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF5FE6E42DA16DC60047635E /* UIComponentsTests */,
+			);
+			name = UIComponentsTests;
+			productName = UIComponentsTests;
+			productReference = BF5FE6E32DA16DC50047635E /* UIComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BF9B00A32D9DCF5C00A156F2 /* WorkTimeApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF9B00CD2D9DCF5F00A156F2 /* Build configuration list for PBXNativeTarget "WorkTimeApp" */;
@@ -271,6 +372,14 @@
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
+					BF5FE6CD2DA16B270047635E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BF9B00A32D9DCF5C00A156F2;
+					};
+					BF5FE6E22DA16DC50047635E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = BF9B00A32D9DCF5C00A156F2;
+					};
 					BF9B00A32D9DCF5C00A156F2 = {
 						CreatedOnToolsVersion = 16.3;
 					};
@@ -301,11 +410,27 @@
 				BF9B00A32D9DCF5C00A156F2 /* WorkTimeApp */,
 				BF9B00B92D9DCF5F00A156F2 /* WorkTimeAppTests */,
 				BF9B00C32D9DCF5F00A156F2 /* WorkTimeAppUITests */,
+				BF5FE6CD2DA16B270047635E /* AuthSDKTests */,
+				BF5FE6E22DA16DC50047635E /* UIComponentsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BF5FE6CC2DA16B270047635E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FE6E12DA16DC50047635E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF9B00A22D9DCF5C00A156F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,6 +579,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BF5FE6CA2DA16B270047635E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5FE6DF2DA16DC50047635E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF9B00A02D9DCF5C00A156F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,6 +624,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BF5FE6D32DA16B270047635E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9B00A32D9DCF5C00A156F2 /* WorkTimeApp */;
+			targetProxy = BF5FE6D22DA16B270047635E /* PBXContainerItemProxy */;
+		};
+		BF5FE6E82DA16DC60047635E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9B00A32D9DCF5C00A156F2 /* WorkTimeApp */;
+			targetProxy = BF5FE6E72DA16DC60047635E /* PBXContainerItemProxy */;
+		};
 		BF9B00BC2D9DCF5F00A156F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BF9B00A32D9DCF5C00A156F2 /* WorkTimeApp */;
@@ -509,6 +658,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BF5FE6D42DA16B270047635E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACFFYDDU5A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiypov.AuthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkTimeApp";
+			};
+			name = Debug;
+		};
+		BF5FE6D52DA16B270047635E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACFFYDDU5A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiypov.AuthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkTimeApp";
+			};
+			name = Release;
+		};
+		BF5FE6EA2DA16DC60047635E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACFFYDDU5A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiypov.UIComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkTimeApp";
+			};
+			name = Debug;
+		};
+		BF5FE6EB2DA16DC60047635E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ACFFYDDU5A;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiypov.UIComponentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkTimeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkTimeApp";
+			};
+			name = Release;
+		};
 		BF9B00CE2D9DCF5F00A156F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9E2ADA65EB1B1EDE46229CF9 /* Pods-WorkTimeApp.debug.xcconfig */;
@@ -765,6 +990,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BF5FE6D62DA16B270047635E /* Build configuration list for PBXNativeTarget "AuthSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FE6D42DA16B270047635E /* Debug */,
+				BF5FE6D52DA16B270047635E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5FE6E92DA16DC60047635E /* Build configuration list for PBXNativeTarget "UIComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FE6EA2DA16DC60047635E /* Debug */,
+				BF5FE6EB2DA16DC60047635E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF9B009F2D9DCF5C00A156F2 /* Build configuration list for PBXProject "WorkTimeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

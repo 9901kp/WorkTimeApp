@@ -12,7 +12,7 @@ import SnapKit
 fileprivate extension Constants {
     static let horizontalOffset: CGFloat = 45
     static let buttonDividerOffset: CGFloat = 5
-    static let iterItemOffset: CGFloat = 58
+    static let interItemOffset: CGFloat = 58
     static let fieldHeight: CGFloat = 28
 
 }
@@ -22,17 +22,20 @@ public class AuthViewController: BaseViewController{
     private let loginTabButton = UIButton()
     private let buttonDividerView = UILabel()
     private let signUpTabButton = UIButton()
-    private let usernameTextField = WTAuthTextField()
-    private let passwordTextField = WTAuthTextField()
+    private let usernameTextField = UITextField()
+    private let passwordTextField = UITextField()
     private let loginButton = UIButton()
     
     override public func setup(){
         super.setup()
         view.backgroundColor = .white
         setUpContentView()
-        setUpContentView()
+        setUpLoginTabButton()
         setUpButtonDividerView()
         setUpsignUpTabButton()
+        setUpLoginTextField()
+        setUpPasswordTextField()
+        setUpLoginButton()
     }
 }
 
@@ -44,7 +47,7 @@ private extension AuthViewController    {
         }
     }
     
-    func setUpContentView() {
+    func setUpLoginTabButton() {
         contentView.addSubview(loginTabButton)
         loginTabButton.setTitle("Login", for: .normal)
         loginTabButton.setTitleColor(.black, for: .normal)
@@ -59,7 +62,7 @@ private extension AuthViewController    {
         buttonDividerView.text = "/"
         
         buttonDividerView.snp.makeConstraints {
-            $0.centerY.equalToSuperview()
+            $0.centerY.equalTo(loginTabButton )
             $0.leading.equalTo(loginTabButton.snp.trailing).offset(Constants.buttonDividerOffset)
         }
     }
@@ -70,7 +73,7 @@ private extension AuthViewController    {
         signUpTabButton.setTitleColor(.black, for: .normal)
 
         signUpTabButton.snp.makeConstraints {
-            $0.bottom.equalToSuperview()
+            $0.bottom.equalTo(loginTabButton)
             $0.leading.equalTo(buttonDividerView.snp.trailing).offset(Constants.buttonDividerOffset)
         }
     }
@@ -80,18 +83,18 @@ private extension AuthViewController    {
         usernameTextField.placeholder = "Username"
         
         usernameTextField.snp.makeConstraints {
-            $0.top.equalTo(loginTabButton.snp.bottom).offset(Constants.iterItemOffset)
+            $0.top.equalTo(loginTabButton.snp.bottom).offset(Constants.interItemOffset)
             $0.leading.equalToSuperview().inset(Constants.horizontalOffset)
             $0.height.equalTo(Constants.fieldHeight)
         }
     }
     
     func setUpPasswordTextField() {
-        contentView.addSubview(usernameTextField)
-        usernameTextField.placeholder = "Password"
+        contentView.addSubview(passwordTextField)
+        passwordTextField.placeholder = "Password"
         
-        usernameTextField.snp.makeConstraints {
-            $0.top.equalTo(usernameTextField.snp.bottom).offset(Constants.iterItemOffset)
+        passwordTextField.snp.makeConstraints {
+            $0.top.equalTo(usernameTextField.snp.bottom).offset(Constants.interItemOffset)
             $0.leading.equalToSuperview().inset(Constants.horizontalOffset)
             $0.height.equalTo(Constants.fieldHeight)
         }
@@ -103,7 +106,7 @@ private extension AuthViewController    {
         loginButton.backgroundColor = .blue
         
         loginButton.snp.makeConstraints {
-            $0.top.equalTo(passwordTextField.snp.bottom).offset(Constants.iterItemOffset)
+            $0.top.equalTo(passwordTextField.snp.bottom).offset(Constants.interItemOffset)
             $0.trailing.equalToSuperview().inset(Constants.horizontalOffset)
             $0.bottom.equalToSuperview()
         }

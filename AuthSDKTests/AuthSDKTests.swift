@@ -2,11 +2,10 @@
 //  AuthSDKTests.swift
 //  AuthSDKTests
 //
-//  Created by Мухаммед Каипов on 3/4/25.
+//  Created by Мухаммед Каипов on 5/4/25.
 //
 
 import Testing
-@testable import AuthSDK
 
 struct AuthSDKTests {
 
