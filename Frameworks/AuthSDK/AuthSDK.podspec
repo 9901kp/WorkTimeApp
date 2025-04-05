@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
     "Resources/**/*.{strings,stringsdict}"
   ]
 
-  s.dependency 'R.swift'  # Убедись, что зависимость корректна
+  s.dependency 'R.swift'
+  s.dependency 'UIComponents'
+  # Убедись, что зависимость корректна
 end

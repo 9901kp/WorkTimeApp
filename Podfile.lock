@@ -1,6 +1,7 @@
 PODS:
   - AuthSDK (0.1.0):
     - R.swift
+    - UIComponents
   - R.swift (7.8.0)
   - SnapKit (5.7.1)
   - SwiftLint (0.58.2)
@@ -27,7 +28,7 @@ EXTERNAL SOURCES:
     :path: "./Frameworks/UIComponents"
 
 SPEC CHECKSUMS:
-  AuthSDK: c1df9094b3b8d866ae34e3c2edc0d0d3cfbd437e
+  AuthSDK: 75429934137cff2c4933a5fbc19483a68613c330
   R.swift: f573269ca45b2ab066c082e363dd4c2b297b0d71
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftLint: 365bcd9ffc83d0deb874e833556d82549919d6cd
